@@ -1,0 +1,27 @@
+/*Comment to help me remember the syntax*/
+body {font-family: "Gill Sans", sans-serif;
+    background-color: rgba(0, 255, 255,.3);
+  
+}
+
+/* This gets my image to the right of the page*/
+figure {
+    float:right;
+    img{ width: 200px;
+    outline: solid;}
+    text-align: center;
+    font-size: 12px;
+}
+
+
+
+h1 {text-align: center;
+    outline: solid;
+    margin: auto;
+    border-radius: 50px;}
+
+c1 {
+    font-weight: bold;
+    outline: solid;
+    margin: auto;
+}
