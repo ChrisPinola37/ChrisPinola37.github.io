@@ -1,7 +1,15 @@
 /*Comment to help me remember the syntax*/
+/*git status*/
+/*git add .*/
+/*git commit -m "message"*/
+/*git push origin master*/
 body {font-family: "Gill Sans", sans-serif;
     background-color: rgb(0, 0, 0, .75);
     background-image: url(grungebg.png); 
+    /*Additional research outside of W3Schools was required to figure out how to get the background image to scale with window*/
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     color: white;
 }
 
@@ -15,17 +23,17 @@ figure {
     
 }
 
-
-
+/*Header configuration*/
 h1 {text-align: center;
     border: solid;
     border-color: white;
     border-width: 5px;
     margin: auto;
     border-radius: 50px;
-    text-shadow: 2.5px 2.5px grey;
+    text-shadow: 2.5px 2.5px rgb(86, 86, 86);
 }
 
+/*c1 represents the bolded topic statements on the page*/
 c1 {
     font-weight: bold;
     outline: solid;
