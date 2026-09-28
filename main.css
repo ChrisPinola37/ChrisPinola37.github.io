@@ -48,6 +48,7 @@ div {
 
 a:link{
     color:white;
+    background-color: black;
 }
 a:hover{
     color: pink;
